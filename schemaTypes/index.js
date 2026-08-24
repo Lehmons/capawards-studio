@@ -12,6 +12,7 @@ import General from './documents/general'
 import Faq from './documents/faq'
 import News from './documents/news'
 import Routes from './documents/routes'
+import siteSettings from './documents/siteSettings'
 
 //objects
 import ImageBlock from './objects/imageBlock'
@@ -31,9 +32,8 @@ import GeneralQuotes from './objects/generalQuotes'
 import GeneralQuoteBlock from './objects/generalQuoteBlock'
 import VideoBlock from './objects/videoBlock'
 
-// Then we give our schema to the builder and provide the result to Sanity
 export const schemaTypes = [
-  /* Your types here! */
+  siteSettings,
   GeneralQuotes,
   GeneralQuoteBlock,
   Faq,
